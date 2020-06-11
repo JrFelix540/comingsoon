@@ -150,9 +150,6 @@ body{
     .heading__primary-secondary{
         font-size: 32px;
     }
-    .align__horizontal-center.body__column{
-        margin-top: -110px;
-    }
     .input__email{
         width: 160px;
         padding:8px 12px;
