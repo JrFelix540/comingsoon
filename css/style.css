@@ -95,3 +95,69 @@ body{
     border: .5px solid #e27070;
     
 }
+.mobile__logo{
+    display: none;
+}
+
+@media screen and (max-width: 1200px){
+    .body__content-text{
+        width: 400px;
+    }
+    .input__email{
+        width: 250px;
+    }
+    .body__content{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+@media screen and (max-width: 768px){
+    .body__content-text{
+        width: 250px;
+        padding: 10px 20px;
+    }
+    .input__email{
+        width: 150px;
+    }
+    .btn__submit{
+        left: -50px;
+        width: 50px;
+        height: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+    .body__content{
+        grid-template-columns: 1fr;
+    }
+    .body__column-background.body__column{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        background-image: url("../images/hero-mobile.jpg");
+        height: 200px;
+    }
+    .body__logo{
+        display: none;
+    }
+    .mobile__logo{
+        display: flex;
+        margin: 15px 0 20px 15px;
+    }
+    .heading__primary{
+        font-size: 32px;
+    }
+    .heading__primary-secondary{
+        font-size: 32px;
+    }
+    .align__horizontal-center.body__column{
+        margin-top: -110px;
+    }
+    .input__email{
+        width: 160px;
+        padding:8px 12px;
+    }
+    .btn__submit{
+        left: -40px;
+    }
+}
