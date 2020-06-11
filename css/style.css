@@ -1,0 +1,97 @@
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+.body__background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/bg-pattern-desktop.jpg');
+    background-size: cover;
+    background-position: center center;
+    overflow-x: hidden;
+}
+.body__content{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    height: 100%;
+    width: 100%;
+}
+.body__column-background{
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../images/hero-desktop.jpg");
+}
+.body__content-text{
+    width: 550px;
+    padding: 50px;
+}
+.heading__primary{
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 10px;
+    line-height: 3.5rem;
+    
+
+}
+.heading__primary-secondary{
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+}
+.next__line{
+    display: block;
+    
+}
+.input__email{
+    border-radius: 20px;
+    width: 400px;
+    border: .5px solid #dbcbce; 
+    padding: 14px 20px; 
+    
+}
+.input__email::placeholder{
+    color:  hsl(0, 36%, 70%);
+}
+.btn__submit{
+    background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    height: 49px;
+    width: 70px;
+    border-radius: 20px;
+    position: relative;
+    left: -60px;
+    border: none;
+    
+}
+.text__primary{
+    font-size: 16px;
+    color: hsl(0, 36%, 70%);
+    margin-bottom: 40px;
+}
+.align__horizontal-center{
+    display: flex;
+    justify-content: center;
+}
+.body__logo{
+    margin-bottom: 70px;
+}
+.input__email:invalid{
+    background: url('../images/icon-error.png') no-repeat scroll;
+    background-position: right 14% bottom 30%;
+    border: .5px solid #e27070;
+    
+}
